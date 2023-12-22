@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/doctorhistoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="doctor" />
+
+    <TextView
+        android:id="@+id/doctorhistorykeluhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reguler"
+        android:maxLines="1"
+        android:textSize="11sp"
+        android:gravity="left"
+        android:ellipsize="end"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_chat_doctor"
+        app:layout_constraintTop_toBottomOf="@id/doctorhistoryName"
+        tools:text="keluhan" />
+
+    <TextView
+        android:id="@+id/tanggal_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reguler"
+        android:maxLines="1"
+        android:textSize="11sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/doctorhistorykeluhan"
+        tools:text="tanggal" />
+
+    <TextView
+        android:id="@+id/doctorhistorywaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reguler"
+        android:maxLines="1"
+        android:textSize="11sp"
+        android:layout_marginStart="66dp"
+        app:layout_constraintStart_toEndOf="@id/tanggal_history"
+        app:layout_constraintEnd_toStartOf="@+id/btn_chat_doctor"
+        app:layout_constraintTop_toBottomOf="@id/doctorhistorykeluhan"
+        tools:text="waktu" />
+
+    <Button
+        android:id="@+id/btn_chat_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/lihat_history"
+        android:textColor="@color/white"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

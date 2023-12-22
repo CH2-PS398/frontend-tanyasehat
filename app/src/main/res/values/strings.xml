@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Tanya Sehat App</string>
+
+    //welcome
+    <string name="welcome_title">SELAMAT DATANG!</string>
+    <string name="welcome_button">Get Started</string>
+    <string name="welcome_description"> Tanya Sehat adalah tempat kamu bisa berkonsultasi tentang kesehatanmu baik dengan asisten bot dan dokter. Mari wujudkan badan yang sehat bersama kami tanpa harus datang ke rumah sakit untuk konsultasi ke dokter.</string>
+
+    //sign up
+    <string name="sign_up">Sign Up</string>
+    <string name="account_login"> Already have an account?</string>
+    <string name="register_successfull"> Register success</string>
+
+
+    //login
+    <string name="login">Login</string>
+    <string name="account_register"> Don\'t have account yet?</string>
+
+    //authentication
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+
+    //dashboard
+    <string name="dashboard_title">Ingin konsultasi dengan siapa?</string>
+    <string name="chatbot_consult"> Consultation with Chat Bot</string>
+    <string name="doctor_consult">Consultation with Doctor</string>
+    <string name="history_consult">History</string>
+    <string name="profile">Profile</string>
+
+    //chat
+    <string name="type_message">tulis pesan</string>
+    <string name="chat_doctor">chat</string>
+
+    <string name="lihat_history">lihat</string>
+
+
+</resources>

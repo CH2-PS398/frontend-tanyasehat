@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "651352013407",
+    "project_id": "tanya-sehat-app",
+    "storage_bucket": "tanya-sehat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651352013407:android:c3fb875a4357f07bf3b9ea",
+        "android_client_info": {
+          "package_name": "com.example.tanyasehatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ7MIE8UKqi8tYKaqt0XFAG5V2GyaVsyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
